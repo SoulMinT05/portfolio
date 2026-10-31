@@ -8,7 +8,10 @@ export function Skills() {
     <Section id="skills" title="Skills" subtitle="What I work with">
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {skills.map((group) => (
-          <Card key={group.title}>
+          <Card
+            key={group.title}
+            className="transition-[transform,box-shadow] duration-300 ease-out hover:shadow-lg motion-safe:hover:-translate-y-2"
+          >
             <CardHeader>
               <CardTitle className="text-base font-semibold">{group.title}</CardTitle>
             </CardHeader>
