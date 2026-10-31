@@ -58,6 +58,7 @@ export const education = {
   school: 'Can Tho University',
   degree: 'Bachelor of Computer Science',
   period: 'Sep 2021 – Aug 2025',
+  location: 'Can Tho, Vietnam',
   notes: ['GPA: 3.74/4.0', '4× 100% Merit Scholarships & Top 3 Student in the major'],
   language: 'IELTS 6.5 – Fluent in reading, intermediate in speaking',
 }
@@ -80,6 +81,7 @@ export const projects = [
 export const navItems = [
   { id: 'about', label: 'About' },
   { id: 'skills', label: 'Skills' },
+  { id: 'education', label: 'Education' },
   { id: 'experience', label: 'Experience' },
   { id: 'projects', label: 'Projects' },
   { id: 'resume', label: 'Resume' },

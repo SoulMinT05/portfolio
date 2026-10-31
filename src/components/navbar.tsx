@@ -23,7 +23,7 @@ export function Navbar() {
           {profile.logo}
         </a>
 
-        <ul className="hidden items-center gap-8 md:flex">
+        <ul className="hidden items-center gap-7 lg:flex">
           {navItems.map((item) => (
             <li key={item.id}>
               <a
@@ -44,7 +44,7 @@ export function Navbar() {
           <ThemeToggle />
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger
-              render={<Button variant="ghost" size="icon-lg" className="md:hidden" aria-label="Open menu" />}
+              render={<Button variant="ghost" size="icon-lg" className="lg:hidden" aria-label="Open menu" />}
             >
               <Menu className="size-5" />
             </SheetTrigger>
