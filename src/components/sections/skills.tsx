@@ -10,7 +10,7 @@ export function Skills() {
         {skills.map((group) => (
           <Card
             key={group.title}
-            className="transition-all duration-300 ease-out hover:shadow-md motion-safe:hover:-translate-y-1"
+            className="transition-all duration-300 ease-out hover:shadow-md motion-safe:hover:-translate-y-2"
           >
             <CardHeader>
               <CardTitle className="text-base font-semibold">{group.title}</CardTitle>
