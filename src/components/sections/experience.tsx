@@ -6,12 +6,15 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { experience } from '@/data/profile'
 import { cn } from '@/lib/utils'
 
+const VISIBLE_POINTS = 5
+
 type Job = (typeof experience)[number]
 
 function ExperienceCard({ job }: { job: Job }) {
   const [expanded, setExpanded] = useState(false)
   const listId = useId()
-  const points = expanded ? job.allPoints : job.points
+  const hasMore = job.points.length > VISIBLE_POINTS
+  const points = expanded || !hasMore ? job.points : job.points.slice(0, VISIBLE_POINTS)
 
   return (
     <Card>
@@ -30,19 +33,21 @@ function ExperienceCard({ job }: { job: Job }) {
           ))}
         </ul>
       </CardContent>
-      <CardFooter>
-        <Button
-          variant="ghost"
-          size="sm"
-          aria-expanded={expanded}
-          aria-controls={listId}
-          onClick={() => setExpanded((value) => !value)}
-          className="text-primary h-8 gap-1.5 px-2"
-        >
-          {expanded ? 'Hide Details' : 'See Details'}
-          <ChevronDown className={cn('transition-transform', expanded && 'rotate-180')} />
-        </Button>
-      </CardFooter>
+      {hasMore && (
+        <CardFooter>
+          <Button
+            variant="ghost"
+            size="sm"
+            aria-expanded={expanded}
+            aria-controls={listId}
+            onClick={() => setExpanded((value) => !value)}
+            className="text-primary h-8 gap-1.5 px-2"
+          >
+            {expanded ? 'Hide Details' : 'See Details'}
+            <ChevronDown className={cn('transition-transform', expanded && 'rotate-180')} />
+          </Button>
+        </CardFooter>
+      )}
     </Card>
   )
 }

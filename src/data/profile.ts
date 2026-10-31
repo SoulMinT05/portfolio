@@ -36,14 +36,8 @@ export const experience = [
     role: 'Fullstack Developer',
     period: 'Dec 2025 – Present',
     location: 'Ho Chi Minh City, Vietnam',
+    // Full list from the CV. The card shows the first few and reveals the rest via "See Details".
     points: [
-      'Built reusable ReactJS components and RESTful APIs with NestJS, including microservices for modular web applications.',
-      'Implemented similarity-based search and generalized it into a reusable search rule adopted across the project.',
-      'Optimized data fetching and queries, cutting response time by around 20–30% and fixing N+1 query issues.',
-      'Adopted TanStack Query, added Vietnamese/English support with react-i18next, and maintained an education management system serving ~4,000 users.',
-    ],
-    // Full list from the CV, shown when "See Details" is opened.
-    allPoints: [
       'Built reusable ReactJS components and integrated them with backend services across multiple features.',
       'Developed RESTful APIs with NestJS and implemented microservices to support scalable and modular web applications.',
       'Implemented similarity-based search to improve search relevance and generalized the approach into a reusable search rule adopted across the project.',
@@ -62,11 +56,6 @@ export const experience = [
     period: 'Apr 2025 – Oct 2025',
     location: 'Ho Chi Minh City, Vietnam',
     points: [
-      'Implemented responsive UI components with ReactJS and Tailwind CSS for internal platform features.',
-      'Built 20+ RESTful APIs with ExpressJS and integrated them with frontend components.',
-      'Explored microservice architecture, Docker and Apache Kafka through a small e-commerce project.',
-    ],
-    allPoints: [
       'Implemented responsive UI components with ReactJS and Tailwind CSS for internal platform features.',
       'Built 20+ RESTful APIs with ExpressJS and integrated them with frontend components to support core platform workflows.',
       'Independently developed a small-scale e-commerce project to explore microservice architecture, Docker, and Apache Kafka, gaining hands-on experience with containerization and asynchronous communication.',
