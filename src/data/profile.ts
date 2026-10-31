@@ -3,7 +3,7 @@ export const profile = {
   logo: 'Tam Nguyen',
   title: 'Fullstack Developer',
   tagline:
-    'Full Stack Software Engineer with over 1 year of experience building scalable web applications with React.js and Node.js (NestJS), including microservices architecture.',
+    'Full Stack Software Engineer with over 1 year of experience building scalable, maintainable web applications, including microservices architecture.',
   email: 'minhtam5111993@gmail.com',
   phone: '+84 857942182',
   linkedin: 'https://linkedin.com/in/tamnguyen0511',
