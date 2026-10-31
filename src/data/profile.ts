@@ -8,6 +8,8 @@ export const profile = {
   phone: '+84 857942182',
   linkedin: 'https://linkedin.com/in/tamnguyen0511',
   github: 'https://github.com/soulmint05',
+  // Formspree form endpoint. Public by design (it appears in the page's network requests either way).
+  formEndpoint: 'https://formspree.io/f/mpppywgp',
   cvUrl: '/Nguyen_Minh_Tam_Fullstack.pdf',
   cvFileName: 'Nguyen_Minh_Tam_Fullstack.pdf',
   summary: [
