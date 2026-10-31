@@ -6,7 +6,6 @@ import { Education } from '@/components/sections/education'
 import { Experience } from '@/components/sections/experience'
 import { Hero } from '@/components/sections/hero'
 import { Projects } from '@/components/sections/projects'
-import { Resume } from '@/components/sections/resume'
 import { Skills } from '@/components/sections/skills'
 
 export default function App() {
@@ -20,7 +19,6 @@ export default function App() {
         <Education />
         <Experience />
         <Projects />
-        <Resume />
         <Contact />
       </main>
       <Footer />
