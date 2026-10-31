@@ -1,4 +1,5 @@
 import { ExternalLink } from 'lucide-react'
+import { ExpandablePoints } from '@/components/expandable-points'
 import { Section } from '@/components/section'
 import { Badge } from '@/components/ui/badge'
 import { buttonVariants } from '@/components/ui/button'
@@ -24,11 +25,7 @@ export function Projects() {
                   </Badge>
                 ))}
               </div>
-              <ul className="text-muted-foreground list-disc space-y-2 pl-5 text-sm leading-relaxed">
-                {project.points.map((point) => (
-                  <li key={point}>{point}</li>
-                ))}
-              </ul>
+              <ExpandablePoints points={project.points} />
             </CardContent>
             <CardFooter>
               <a
