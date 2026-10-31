@@ -74,7 +74,7 @@ export const projects = [
       'Cut API response time by around 30–40% with Redis caching.',
       'Containerized and deployed with Docker & Docker Compose.',
     ],
-    link: 'https://github.com/soulmint05',
+    link: 'https://github.com/SoulMinT05/rubystore',
   },
 ]
 
