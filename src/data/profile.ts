@@ -42,6 +42,19 @@ export const experience = [
       'Optimized data fetching and queries, cutting response time by around 20–30% and fixing N+1 query issues.',
       'Adopted TanStack Query, added Vietnamese/English support with react-i18next, and maintained an education management system serving ~4,000 users.',
     ],
+    // Full list from the CV, shown when "See Details" is opened.
+    allPoints: [
+      'Built reusable ReactJS components and integrated them with backend services across multiple features.',
+      'Developed RESTful APIs with NestJS and implemented microservices to support scalable and modular web applications.',
+      'Implemented similarity-based search to improve search relevance and generalized the approach into a reusable search rule adopted across the project.',
+      'Optimized data fetching and database queries, reducing response time by around 20–30% and mitigating performance issues such as N+1 queries.',
+      'Adopted TanStack Query for data fetching and server-state management, reducing boilerplate code and improving the maintainability of frontend components.',
+      'Implemented multi-language support for Vietnamese and English using react-i18next, enabling a localized experience for Vietnamese customers.',
+      'Created responsive and mobile-optimized components with smooth animations and transitions, contributing to an enhanced user experience and professional interface.',
+      'Built and maintained an education management system serving approximately 4,000 users.',
+      'Collaborated in Agile/Scrum sprints for feature development, debugging, testing, and code reviews, and worked with global BAs to clarify and refine ticket requirements.',
+      'Leveraged AI-powered development tools such as Claude and Antigravity to assist with code development, debugging, and refactoring, improving overall development productivity.',
+    ],
   },
   {
     company: 'FPT Software',
@@ -52,6 +65,12 @@ export const experience = [
       'Implemented responsive UI components with ReactJS and Tailwind CSS for internal platform features.',
       'Built 20+ RESTful APIs with ExpressJS and integrated them with frontend components.',
       'Explored microservice architecture, Docker and Apache Kafka through a small e-commerce project.',
+    ],
+    allPoints: [
+      'Implemented responsive UI components with ReactJS and Tailwind CSS for internal platform features.',
+      'Built 20+ RESTful APIs with ExpressJS and integrated them with frontend components to support core platform workflows.',
+      'Independently developed a small-scale e-commerce project to explore microservice architecture, Docker, and Apache Kafka, gaining hands-on experience with containerization and asynchronous communication.',
+      'Participated in daily team sync-ups to provide progress updates, discuss blockers, and align on development tasks.',
     ],
   },
 ]
